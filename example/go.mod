@@ -5,7 +5,7 @@ replace github.com/byebyebruce/clipty => ../
 go 1.16
 
 require (
-	github.com/byebyebruce/clipty v0.0.0-00010101000000-000000000000
+	github.com/byebyebruce/clipty v0.0.0-20230705064758-24dd1a06171b
 	github.com/charmbracelet/bubbles v0.16.1
 	github.com/charmbracelet/bubbletea v0.24.2
 	github.com/charmbracelet/lipgloss v0.7.1
