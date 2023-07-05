@@ -1,5 +1,5 @@
 # CLIPTY
-> Transform your Command Line Interface (CLI) into a web browser-based terminal emulator.
+> Transform your Command Line Interface (CLI) function into a web browser-based terminal emulator.
 
 ## Preview
 ![](doc/preview.png)
@@ -40,4 +40,12 @@
     go run .
     ```
 4. open http://localhost:8081
-## [Example](example)
+## Example
+[example](example)
+
+
+## SPECIAL THANKS
+* [GoTTY](https://github.com/sorenisanerd/gotty)
+
+
+![](https://hits.sh/github.com/byebyebruce/clipty/doc/hits.svg?label=%F0%9F%91%80)
