@@ -2,8 +2,6 @@ package clipty
 
 import (
 	"context"
-	"errors"
-	"fmt"
 	"os"
 
 	"github.com/creack/pty"
@@ -22,7 +20,7 @@ type CliWrapper struct {
 func New(params map[string][]string, mf MainFunc) (*CliWrapper, error) {
 	pty, tty, err := pty.Open()
 	if err != nil {
-		return nil, errors.Join(err, fmt.Errorf("pyt.Open error"))
+		return nil, err
 	}
 
 	ctx, cancel := context.WithCancel(context.Background())
