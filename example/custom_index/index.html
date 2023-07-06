@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>{{ .title }}</title>
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/xterm.css" />
+    <link rel="stylesheet" href="./css/xterm_customize.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        #terminal {
+            border: 2px solid #FF0000; /* Change the color as needed */
+        }
+    </style>
+
+</head>
+
+<body>
+<H1>Custom Index</H1>
+<div id="terminal"></div>
+<script src="./auth_token.js"></script>
+<script src="./config.js"></script>
+<script src="./js/gotty.js"></script>
+</body>
+
+</html>
